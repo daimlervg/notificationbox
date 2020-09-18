@@ -1,0 +1,92 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Teledolar Sinpe Notifications</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="stylesheet" href="assets/main.css" />
+	</head>
+    <body >
+        <!-- Begin Notification Box -->
+        <div id="tld-notification-box" onload="tld_set_session_storage()">
+            <!-- Begin Header Box -->
+            <div id="tld-notification-box-header">
+                <div class="tld-notification-box-header-info">
+                    <span class="tld-notification-box-header-title">Hola 👋</span>
+                    <a id="tld-notification-box-header-logout" href="">
+                        <span>88774455</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" height="25px" viewBox="0 0 511 512" width="25px"><path d="m361.5 392v40c0 44.113281-35.886719 80-80 80h-201c-44.113281 0-80-35.886719-80-80v-352c0-44.113281 35.886719-80 80-80h201c44.113281 0 80 35.886719 80 80v40c0 11.046875-8.953125 20-20 20s-20-8.953125-20-20v-40c0-22.054688-17.945312-40-40-40h-201c-22.054688 0-40 17.945312-40 40v352c0 22.054688 17.945312 40 40 40h201c22.054688 0 40-17.945312 40-40v-40c0-11.046875 8.953125-20 20-20s20 8.953125 20 20zm136.355469-170.355469-44.785157-44.785156c-7.8125-7.8125-20.476562-7.8125-28.285156 0-7.8125 7.808594-7.8125 20.472656 0 28.28125l31.855469 31.859375h-240.140625c-11.046875 0-20 8.953125-20 20s8.953125 20 20 20h240.140625l-31.855469 31.859375c-7.8125 7.808594-7.8125 20.472656 0 28.28125 3.90625 3.90625 9.023438 5.859375 14.140625 5.859375 5.121094 0 10.238281-1.953125 14.144531-5.859375l44.785157-44.785156c19.496093-19.496094 19.496093-51.214844 0-70.710938zm0 0"/></svg>
+                    </a>
+                </div>
+                <span>
+                    Hacemos que la comunicación entre negocios y personas sea sencilla y fluida.
+                </span>
+            </div>
+            <!-- End Header Box -->
+            <!-- Begin Body Box -->
+            <div id="tld-notification-box-body">
+                <div id="tld-notification-box-body-filter" class="tld-notification-box-body-content">
+                    <div class="tld-notification-box-body-content-title">
+                        Recibir notificaciones del número: 
+                    </div>     
+                    <select name="phones" class="tld-notification-box-body-content-ddl">
+                        <option>88774455</option>
+                        <option>88997744</option>
+                    </select>
+                    <button  tabindex="0" id="tld-notification-box-start-process" onclick="tld_load()">
+                        <svg focusable="false" aria-hidden="true" class="intercom-168qcfi e1a9wl010">
+                            <path d="M1.5 13.864L7.864 7.5 1.5 1.136" stroke-width="2.5" fill="none" fill-rule="evenodd"></path>
+                        </svg>
+                    </button>
+                </div>
+                <div id="tld-notifications-box-body-container">
+                    <div class="tld-notification-box-body-content">
+                        <div class="tld-notification-box-body-content-title">
+                            Notificaciones: 
+                        </div> 
+                        <div id="tld-notifications-box-body-content-messages">    
+                            <div class="tld-notification-box-body-content-message" >
+                                <a href="#">La transferencia se realizó por un monto de 60000.00 CRC </a> 
+                            </div>
+                            <div class="tld-notification-box-body-content-message-time">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14">
+                                    <path fill-rule="evenodd" d="M12.5 7c0 3.0376-2.4624 5.5-5.5 5.5-3.03757 0-5.5-2.4624-5.5-5.5 0-3.03757 2.46243-5.5 5.5-5.5 3.0376 0 5.5 2.46243 5.5 5.5zM14 7c0 3.866-3.134 7-7 7-3.86599 0-7-3.134-7-7 0-3.86599 3.13401-7 7-7 3.866 0 7 3.13401 7 7zM6.27844 3.48219v3.78093l.00105.00104c.00305.07805.03658.1518.09341.20546l.07452.0566L9.6706 9.69708l.15009.03773h.05667c.09341-.01886.14904-.07442.20574-.13102l.4125-.65514c.0355-.04926.0552-.10809.0566-.16876 0-.09329-.0566-.14885-.1501-.20545L7.62817 6.68345V3.48219c0-.14989-.1312-.29979-.30017-.29979h-.74938c-.16898 0-.30018.1499-.30018.29979z" clip-rule="evenodd"></path>
+                                </svg>
+                                <span>Hace 1 min</span>
+                            </div>   
+                        </div>                       
+                    </div>
+                </div>
+            </div>
+            <!-- End Body Box -->
+            <!-- Begin Footer Box -->
+            <div id="tld-notification-box-footer">
+                <a href="https://www.teledolar.com" target="_blank" tabindex="0">
+                    <span class="tld-orange">Tele</span><span class="tld-green">Dolar S.A</span>
+                </a>
+            </div>
+            <!-- End Footer Box -->
+        </div>
+        <!-- End Notification Box -->
+        <!-- Begin Open Icon -->
+        <div id="tld-notification-box-launcher-icon-open" class="tld-notification-box-launcher tld-launcher"  onclick="tld_toggle_box()">
+            <div class="tld-notification-box-launcher-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 32">
+                    <path d="M28 32s-4.714-1.855-8.527-3.34H3.437C1.54 28.66 0 27.026 0 25.013V3.644C0 1.633 1.54 0 3.437 0h21.125c1.898 0 3.437 1.632 3.437 3.645v18.404H28V32zm-4.139-11.982a.88.88 0 00-1.292-.105c-.03.026-3.015 2.681-8.57 2.681-5.486 0-8.517-2.636-8.571-2.684a.88.88 0 00-1.29.107 1.01 1.01 0 00-.219.708.992.992 0 00.318.664c.142.128 3.537 3.15 9.762 3.15 6.226 0 9.621-3.022 9.763-3.15a.992.992 0 00.317-.664 1.01 1.01 0 00-.218-.707z"></path>
+                </svg>
+            </div>
+        </div>
+        <!-- End Open Icon -->
+        <!-- Begin Minimize Icon -->
+        <div id="tld-notification-box-launcher-icon-minimize" class="tld-notification-box-launcher tld-launcher"  onclick="tld_toggle_box()">
+            <div class="tld-notification-box-launcher-icon">
+                <svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 14">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M.116 4.884l1.768-1.768L8 9.232l6.116-6.116 1.768 1.768L8 12.768.116 4.884z"></path>
+                </svg>
+            </div>
+        </div>
+        <!-- End Minimize Icon -->
+		<!-- Scripts -->
+        <script src="assets/main.js"></script>
+	</body>
+</html>
